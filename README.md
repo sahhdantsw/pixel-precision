@@ -10,7 +10,7 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/✿%20made%20with%20care%20by%20ME-✿-F7B7C8?style=flat-square&labelColor=F7B7C8" alt="Made with care by ME">
+<img src="https://img.shields.io/badge/✿%20made%20with%20care%20by%20sarah-✿-F7B7C8?style=flat-square&labelColor=F7B7C8" alt="Made with care by Sarah">
 
 <br><br>
 
@@ -20,7 +20,7 @@
 
 ## about
 
-**Pixel Precision** is a lightweight 2D aim trainer made with Python and Flet. Practice hitting moving targets, adjust your crosshair, and keep track of your progress in one desktop window.
+**Pixel Precision** is a lightweight, general-purpose 2D aim trainer made with Python and Flet. Practice hitting moving targets, adjust your crosshair and sensitivity, and keep track of your progress in one desktop window. It can be used alongside different games that let you adjust mouse sensitivity; VALORANT was simply the original reference game for this project.
 
 > **Language:** The app's interface is available in **English** and **Brazilian Portuguese (Português do Brasil)**. This README is in English.
 
@@ -28,7 +28,7 @@
 
 - Practice in 60-second sessions with targets that move after each hit.
 - Customize crosshair color and size.
-- Set your VALORANT sensitivity and mouse DPI; view your calculated eDPI.
+- Set an in-game sensitivity and mouse DPI; view the calculated eDPI.
 - Earn 200 points for hitting the white center or 100 points for hitting the outer ring.
 - Pause a session, adjust your crosshair, resume, or return to the lobby.
 - Save your personal best and session history locally.
@@ -59,13 +59,13 @@ To remove the virtual environment and installed dependencies, run `desinstalar.b
 
 ## sensitivity notes
 
-Enter the sensitivity and mouse DPI you use in VALORANT. Pixel Precision displays eDPI using:
+Enter the sensitivity and mouse DPI you use in your game. Pixel Precision displays eDPI using:
 
 ```text
 eDPI = sensitivity × mouse DPI
 ```
 
-Sensitivity matching is an approximation for this 2D trainer. It does not reproduce VALORANT's 3D camera rotation or raw input.
+Sensitivity matching is an approximation. Games can interpret sensitivity differently, and this trainer does not read a game's settings or reproduce its 3D camera rotation or raw input. Use the values as a starting point and adjust them to feel comfortable.
 
 ## local data
 
